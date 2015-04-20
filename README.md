@@ -1,6 +1,6 @@
-## rahmen ![NPM version](https://img.shields.io/npm/v/rahmen.svg?style=flat) 
+## Rahmen ![NPM version](https://img.shields.io/npm/v/rahmen.svg?style=flat) 
 
-Elegent approach to build a backend project based on Express or Koa
+Elegant approach to build a backend project based on Express/Koa and ES6.
 
 ### Installation
 ```bash
@@ -8,8 +8,18 @@ $ npm install rahmen
 ```
 
 ### Example
+
+### As a Git submodule
+```bash
+$ git clone git@github.com:turingou/rahmen.git
+```
+
+### As a NPM module
 ```js
-var rahmen = require('rahmen');
+var Server = require('rahmen');
+var server = new Server();
+
+server.models(fn).routes(fn).run();
 ```
 
 ### API
