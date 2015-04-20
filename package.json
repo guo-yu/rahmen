@@ -1,0 +1,28 @@
+{
+  "name": "rahmen",
+  "version": "0.1.0",
+  "description": "Elegent approach to build a backend project based on Express or Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/rahmen.git"
+  },
+  "keywords": [
+    "express",
+    "koa",
+    "scaffold",
+    "rahmen",
+    "MVC",
+    "framework",
+    "frame"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/rahmen/issues"
+  },
+  "homepage": "https://github.com/turingou/rahmen"
+}
